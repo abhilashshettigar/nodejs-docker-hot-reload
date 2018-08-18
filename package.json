@@ -1,0 +1,37 @@
+{
+  "name": "nodejs-docker-hot-reload",
+  "version": "1.0.0",
+  "description": "Dockerizing a Node.js with hot module reload",
+  "main": "app.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint *.js --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamgoangle/nodejs-docker-hot-reload.git"
+  },
+  "author": "Teerapong Singthong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamgoangle/nodejs-docker-hot-reload/issues"
+  },
+  "homepage": "https://github.com/iamgoangle/nodejs-docker-hot-reload#readme",
+  "dependencies": {
+    "eslint-config-airbnb": "^17.1.0",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "dotenv": "^6.0.0",
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jest": "^21.18.0",
+    "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-security": "^1.4.0",
+    "prettier": "1.14.2",
+    "prettier-eslint": "^8.8.2"
+  }
+}
