@@ -15,7 +15,7 @@ GGEZ
 9. Setup Zipkin
 10. Setup ELK
 11. Setup expose port for debugging in Container
-12. Setup winston and morgan
+12. Setup morgan and winston for stdout log
 
 ## Setup ESlint Airbnb and Prettier
 
