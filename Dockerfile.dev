@@ -1,0 +1,19 @@
+FROM node:8.11.3
+
+# Define working directory and copy package.json + package-lock.json
+WORKDIR /usr/src/app
+COPY package*.json ./
+
+# Install nodemon for hot-reloading
+RUN npm install -g nodemon
+RUN npm config set registry https://registry.npmjs.org
+
+# Install dependency
+RUN npm install \
+    && npm ls \
+    && npm cache clean --force
+
+COPY . .
+
+EXPOSE 8080
+CMD [ "npm", "start" ]
